@@ -1,0 +1,35 @@
+header {
+  background-image: url(images/ktm-1.jpg);
+  background-size: cover;
+  text-align: center;
+  color: #fff; }
+  header h1 {
+    font-size: 75px;
+    padding: 20px 0 0 0; }
+  header ul {
+    list-style-type: none;
+    margin-top: 400px;
+    background: rgba(0, 0, 0, 0.5); }
+  header li {
+    display: inline-block; }
+    header li a {
+      font-size: 30px;
+      color: #fff;
+      font-family: pompiere;
+      transition: 0.6s ease-in-out;
+      padding: 0 10px 0 10px;
+      margin: 0 10px 0 10px; }
+    header li a:hover {
+      background-color: rgba(0, 0, 0, 0.75);
+      text-decoration: none; }
+
+.top {
+  text-align: center;
+  margin: 10px 0 0 0; }
+  .top .para-1 {
+    font-family: pompiere;
+    font-size: 30px;
+    padding: 3px;
+    margin: 35px 0 0 0; }
+
+/*# sourceMappingURL=index-css.css.map */
