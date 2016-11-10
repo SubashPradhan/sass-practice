@@ -1,0 +1,21 @@
+$font: pompiere;
+$font-mobile: 35px;
+$color1: rgba(0,0,255,0.6);
+$color2: rgba(0,0,255,0.2);
+$color3: rgba(0,0,0,0.7);
+$color4: rgba(0,0,0,0.3);
+
+@mixin bg-gradient-l2r($color1, $color2){
+	background: -webkit-linear-gradient(left,$color1, $color2);
+	background: -moz-linear-gradient(left,$color1, $color2);
+	background: linear-gradient(left,$color1, $color2);
+	
+}
+
+@mixin btm-gradient-btm2top($color3, $color4){
+	background: -webkit-linear-gradient(bottom,$color3, $color4);
+	background: -moz-linear-gradient(bottom,$color3, $color4);
+	background: linear-gradient(bottom,$color3, $color4);
+	
+
+}

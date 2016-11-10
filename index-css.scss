@@ -1,5 +1,5 @@
-$font: pompiere;
 
+@import "font-color";
 
 header{
 	background-image: url(images/ktm-1.jpg);
@@ -19,7 +19,7 @@ header{
 	li{
 		display: inline-block;
 		
-				
+
 		a{
 			font-size: 30px;
 			color: #fff;			
@@ -29,7 +29,7 @@ header{
 			margin: 0 10px 0 10px;
 		}
 		a:hover{
-			background-color: rgba(0, 0, 0, 0.75);
+			
 			text-decoration: none;
 
 		}
@@ -39,7 +39,7 @@ header{
 .top{
 	text-align: center;
 	margin: 10px 0 0 0;
-	.para-1{
+	p{
 		font-family: $font;
 		font-size: 30px;
 		font-weight: 900;
@@ -52,9 +52,8 @@ header{
 #about-city{
 	margin: 50px 0 0 0;
 	h1{
-		background: -webkit-linear-gradient(left,rgba(0, 0, 255, 0.6), rgba(0, 0, 0, 0.2));
-		background: -moz-linear-gradient(left,rgba(0,0,255,0.6),rgba(0,0,255,0.2));
-    	background: linear-gradient(left,rgba(0,0,255,0.6),rgba(0,0,255,0.2))
+		@include bg-gradient-l2r($color1,$color2);
+		
 	}
 	.about{
 		margin: 10px 0 0 0;
@@ -76,10 +75,9 @@ header{
 
 #contact{
 	.footer{
-		margin: 50px 0 0 0;
-		
-		background: -webkit-linear-gradient(bottom,rgba(0,0,0,0.8),rgba(0,0,0,0.3));
+		margin: 50px 0 0 0;		
 		text-align: center;
+		@include btm-gradient-btm2top($color3, $color4);
 	}
 	p{
 		font-size: 30px;
@@ -97,6 +95,7 @@ header{
 		padding: 10px;
 		color: #00f;
 		margin: 0 0 0 10px;
+		transition: 0.6s ease-in-out;
 
 	}
 	a:hover{
@@ -115,12 +114,24 @@ header{
 		color: #fff;
 
 		h1{
-			font-size: 40px;
-			padding: 20px 0 0 0;
+			font-size: $font-mobile;
+			padding: 10px 0 0 0;
+			margin: 0 0 0 40px;
 		}
 		
+		li{
+			a{
+				font-size: $font-mobile;
+			}
+			
+		}
 	}
 
+	.top{
+		p{			
+			font-size: $font-mobile;			
+		}
+	}
 
 	#about-city{
 		margin: 50px 0 0 0;
@@ -129,10 +140,13 @@ header{
 				width: 100%;
 				height: 250px;
 			}
+			h3{
+				font-size: $font-mobile;
+			}
 			p{
-				background-color: rgba(255, 0, 0, 0.2);
+				background-color: $color2;
 				font-family: $font;
-				font-size: 30px;
+				font-size: $font-mobile;
 				font-weight: 800;
 				padding: 5px;
 			}
