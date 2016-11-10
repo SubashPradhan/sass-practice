@@ -29,6 +29,7 @@ header {
   .top .para-1 {
     font-family: pompiere;
     font-size: 30px;
+    font-weight: 900;
     padding: 3px;
     margin: 35px 0 0 0; }
 
@@ -71,6 +72,16 @@ header {
   color: #fff; }
 
 @media all and (max-width: 1024px) {
+  header {
+    background-image: url(images/ktm-1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff; }
+    header h1 {
+      font-size: 40px;
+      padding: 20px 0 0 0; }
+
   #about-city {
     margin: 50px 0 0 0; }
     #about-city .about img {

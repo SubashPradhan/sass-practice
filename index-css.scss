@@ -42,6 +42,7 @@ header{
 	.para-1{
 		font-family: $font;
 		font-size: 30px;
+		font-weight: 900;
 		padding: 3px;
 		margin: 35px 0 0 0;
 	}
@@ -89,8 +90,8 @@ header{
 		margin: 25px 0 0 0;
 	}
 	.para-2{
-	@extend p;
-	margin: 0 0 0 0;
+		@extend p;
+		margin: 0 0 0 0;
 	}
 	a{
 		padding: 10px;
@@ -105,23 +106,37 @@ header{
 }
 
 @media all and (max-width: 1024px){
-	#about-city{
-	margin: 50px 0 0 0;
-	.about{
+	
+	header{
+		background-image: url(images/ktm-1.jpg);
+		background-size: cover;
+		background-position: center;
+		text-align: center;
+		color: #fff;
+
+		h1{
+			font-size: 40px;
+			padding: 20px 0 0 0;
+		}
 		
+	}
 
-		img{
-			width: 100%;
-			height: 250px;
-		}
-		p{
-			background-color: rgba(255, 0, 0, 0.2);
-			font-family: $font;
-			font-size: 30px;
-			font-weight: 800;
-			padding: 5px;
-		}
 
+	#about-city{
+		margin: 50px 0 0 0;
+		.about{
+			img{
+				width: 100%;
+				height: 250px;
+			}
+			p{
+				background-color: rgba(255, 0, 0, 0.2);
+				font-family: $font;
+				font-size: 30px;
+				font-weight: 800;
+				padding: 5px;
+			}
+
+		}	
 	}	
-}	
 }
