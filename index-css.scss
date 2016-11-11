@@ -49,7 +49,7 @@ header{
 
 }
 
-#about-city{
+.about-city{
 	margin: 50px 0 0 0;
 	h1{
 		@include bg-gradient-l2r($color1,$color2);
@@ -133,7 +133,7 @@ header{
 		}
 	}
 
-	#about-city{
+	.about-city{
 		margin: 50px 0 0 0;
 		.about{
 			img{
