@@ -32,18 +32,18 @@ header {
     padding: 3px;
     margin: 35px 0 0 0; }
 
-.about-city {
+.Ktm {
   margin: 50px 0 0 0; }
-  .about-city h1 {
+  .Ktm h1 {
     background: -webkit-linear-gradient(left, rgba(0, 0, 255, 0.6), rgba(0, 0, 255, 0.2));
     background: -moz-linear-gradient(left, rgba(0, 0, 255, 0.6), rgba(0, 0, 255, 0.2));
     background: linear-gradient(left, rgba(0, 0, 255, 0.6), rgba(0, 0, 255, 0.2)); }
-  .about-city .about {
+  .Ktm .about {
     margin: 10px 0 0 0; }
-    .about-city .about img {
+    .Ktm .about img {
       width: 350px;
       height: 250px; }
-    .about-city .about p, .about-city .about #contact .para-2, #contact .about-city .about .para-2 {
+    .Ktm .about p, .Ktm .about #contact .para-2, #contact .Ktm .about .para-2 {
       background-color: rgba(255, 0, 0, 0.2);
       font-family: pompiere;
       font-size: 22px;
@@ -90,14 +90,14 @@ header {
   .top p, .top #contact .para-2, #contact .top .para-2 {
     font-size: 35px; }
 
-  .about-city {
+  #about-city {
     margin: 50px 0 0 0; }
-    .about-city .about img {
+    #about-city .about img {
       width: 100%;
       height: 250px; }
-    .about-city .about h3 {
+    #about-city .about h3 {
       font-size: 35px; }
-    .about-city .about p, .about-city .about #contact .para-2, #contact .about-city .about .para-2 {
+    #about-city .about p, #about-city .about #contact .para-2, #contact #about-city .about .para-2 {
       background-color: rgba(0, 0, 255, 0.2);
       font-family: pompiere;
       font-size: 35px;
